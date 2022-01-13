@@ -1,14 +1,14 @@
-package main
+package sort
 
 import "fmt"
 
-func main(){
-	var a = []int{3,4,5,1,2,3,5,6,8,5,3}
-	fmt.Println(a)
-	fmt.Println(len(a)-1)
-	quicksort(a,0,len(a)-1)
-	fmt.Println(a)
-}
+//func main(){
+//	var a = []int{3,4,5,1,2,3,5,6,8,5,3}
+//	fmt.Println(a)
+//	fmt.Println(len(a)-1)
+//	quicksort(a,0,len(a)-1)
+//	fmt.Println(a)
+//}
 
 func quicksort(arr []int,left int,right int) {
 
